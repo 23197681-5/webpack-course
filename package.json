@@ -24,6 +24,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "turbojs": "^1.0.2"
   }
 }
