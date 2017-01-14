@@ -5,13 +5,14 @@ module.exports ={
     filename : 'bundle.js'
   },
   module : {
-    loaders : [ {
-      test : /\.js$/,
+    loaders : [
+      {
+       test : /\.js$/,
        loader : 'babel-loader',
-      exclude : /node_modules/,
-      query : {
-        presets : [".es2015"]
-      }
+       exclude : /node_modules/,
+       query : {
+         presets : ["es2015"]
+       }
       }
       ]
     },
@@ -19,4 +20,4 @@ module.exports ={
       port : 3000,
       inline : true
     }
-};
+}
