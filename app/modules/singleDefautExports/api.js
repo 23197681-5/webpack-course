@@ -1,3 +1,3 @@
-export defaut function myApi(name){
+export default function myApi(name){
   return "Hello "+ name;
 }
