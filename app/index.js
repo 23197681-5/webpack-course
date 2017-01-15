@@ -10,6 +10,16 @@ import arrowFunctions from './newSyntax/arrow-functions';
 import enhancedObjectProperties from './functionsAndObjects/enhancedObjectProperties';
 import destructuringAssignment from './functionsAndObjects/destructuringAssignment';
 
+
+import enhancedObjectProperties from './functionsAndObjects/enhancedObjectProperties';
+import destructuringAssignment from './functionsAndObjects/destructuringAssignment';
+import defaultParameters from './functionsAndObjects/defaultParameters';
+import thisKeyword from './functionsAndObjects/thisKeyword';
+
+import creatingPromises from './promises/promises';
+import promisesAll from './promises/promisesAll';
+import jokes from './promises/jokes';
+
 const modules = () => {
   singleDefaultExports();
   multipleNamedExports();
@@ -29,6 +39,14 @@ const functionsAndObjects = () => {
   thisKeyword();
 }
 
+const promises = () => {
+  // creatingPromises();
+  promisesAll();
+  // jokes();
+
+}
+
 modules();
 newSyntax();
 functionsAndObjects();
+prommises();
