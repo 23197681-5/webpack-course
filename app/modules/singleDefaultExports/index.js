@@ -1,7 +1,7 @@
-import pi from './pi'
+import pi from './pi';
 import add from './math';
-import Person from './person'
-import {log, logTittle} from '../../WindowLogger'
+import Person from './person';
+import {log, logTittle} from '../../WindowLogger';
 
 export default function(){
   logTittle('SingleDefaultsExports');
@@ -9,5 +9,4 @@ export default function(){
   log(add(10, 90));
   var person = new Person();
    log(person.getName());
-  //console.log();
 }
