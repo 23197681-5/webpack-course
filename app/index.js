@@ -17,12 +17,18 @@ const modules = () => {
 
 const newSyntax = () => {
   theLetKeyword();
-  constant();
   templateLiteral();
   spread();
   arrowFunctions();
 }
 
+const functionsAndObjects = () => {
+  enhancedObjectProperties();
+  destructuringAssignment();
+  defaultParameters();
+  thisKeyword();
+}
 
  modules();
-// newSyntax();
+ newSyntax();
+functionsAndObjects();
