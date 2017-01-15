@@ -1,13 +1,13 @@
 import pi from './pi'
-import api from './api'
+import add from './math';
 import Person from './person'
 import {log, logTittle} from '../../WindowLogger'
 
 export default function(){
   logTittle('SingleDefaultsExports');
   log(pi);
-  log(api("Ana"));
+  log(add(10, 90));
   var person = new Person();
-  person.toString();
+   log(person.getName());
   //console.log();
 }
