@@ -3,8 +3,7 @@
 import singleDefaultExports from  './modules/singleDefaultExports/index'
 import letit from  './newSyntax/let';
 import literal from  './newSyntax/literal';
-
-import spread from  './newSyntax/arrow-functions';
+import arrowFunctions from './newSyntax/arrow-functions';
 import spread from  './newSyntax/spread';
 import multipleNamedExports from  './modules/multipleNamedExports/index'
 function modules(){
@@ -13,7 +12,7 @@ function modules(){
 }
 function newSyntax(){
   //letit();
-  
+
 }
 
 //modules();
