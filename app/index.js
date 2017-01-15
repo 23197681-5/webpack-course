@@ -16,6 +16,9 @@ import creatingPromises from './promises/promises';
 import promisesAll from './promises/promisesAll';
 import jokes from './promises/jokes';
 
+import classes from './classes/index';
+
+
 const modules = () => {
   singleDefaultExports();
   multipleNamedExports();
@@ -45,4 +48,5 @@ const promises = () => {
 //modules();
 //newSyntax();
 //functionsAndObjects();
-promises();
+//promises();
+classes();
