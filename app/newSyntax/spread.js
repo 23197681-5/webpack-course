@@ -1,6 +1,6 @@
-import { log, logTittle} from '../WindowLogger'
+import { log, logTitle} from '../WindowLogger'
 export default function(){
- logTittle("Spread");
+ logTitle("Spread");
  const frutas = ['abacate', 'morango'];
  const vendedores = ['Emerson', 'Regis'];
  const frutasevendedores = [...frutas, ...vendedores];

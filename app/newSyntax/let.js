@@ -1,6 +1,6 @@
-import { log, logTittle} from '../WindowLogger'
+import { log, logTitle} from '../WindowLogger'
 export default function(){
- logTittle("Let Keyword");
+ logTitle("Let Keyword");
  var pi;
  if(true){
    pi = 3;

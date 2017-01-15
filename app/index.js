@@ -3,7 +3,7 @@ import multipleNamedExports from './modules/multipleNamedExports/index';
 
 import theLetKeyword from './newSyntax/let';
 import constant from './newSyntax/const';
-import templateLiteral from './newSyntax/template-literal';
+import templatLiteral from './newSyntax/literal';
 import spread from './newSyntax/spread';
 import arrowFunctions from './newSyntax/arrow-functions';
 
@@ -29,6 +29,6 @@ const functionsAndObjects = () => {
   thisKeyword();
 }
 
- modules();
- newSyntax();
+modules();
+newSyntax();
 functionsAndObjects();

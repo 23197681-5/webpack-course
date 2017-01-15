@@ -1,6 +1,6 @@
-import { log, logTittle} from '../WindowLogger'
+import { log, logTitle} from '../WindowLogger'
 export default function(){
- logTittle("Arrow");
+ logTitle("Arrow");
  const sum =(n, n2) => {
    return n + n2;
  };

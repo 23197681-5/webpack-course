@@ -1,6 +1,6 @@
-import { log, logTittle} from '../WindowLogger'
+import { log, logTitle} from '../WindowLogger'
 export default function(){
- logTittle("Literal");
+ logTitle("Literal");
  const fruta = 'abacate';
  log('Fruta ${fruta}');
 }
