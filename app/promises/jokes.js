@@ -3,7 +3,7 @@ import { log, logTitle } from '../WindowLogger';
 export default () => {
   logTitle('Jokes');
 
-  const jokesPromise = fetch('http://api.icndb.com/jokes/random/10');
+  const jokesPromise = fetch('http://api.icndb.com/jokes/random/5');
   // log(jokesPromise);
   jokesPromise.then(data => {
     // log(data);
