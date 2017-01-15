@@ -2,8 +2,8 @@
 //var webpack = require('webpack');
 
 module.exports = {
-  entry: './app',
-  output: { path: './build', filename: 'bundle.js' },
+  entry: ['./app'],
+  output: { path: './build', filename: "bundle.js" },
   module: {
     loaders: [
       {
@@ -11,7 +11,7 @@ module.exports = {
          loader: 'babel',
          exclude: /node_modules/,
          query: {
-           presets: ["es2015"]
+           presets: ['es2015']
          }
       }
     ]
