@@ -16,4 +16,10 @@ export default class Person {
     getAge(){
         return this.age;
     }
+    static getObjectType(){
+        log("I am a person object");
+    }
+    static upperCasePersonName(){
+        return name.toUpperCase();
+    }
 }
